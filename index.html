@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">MY PORTFOLIO</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#skill">
+                              Skill
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#project">
+                              Project
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h2>Hello, I'm</h1>
+                <h1 class="my-heading">Sri abi</h1>
+                <h3 class="sub-heading">
+                    Fresher
+                </h3>
+            
+            </div>
+           
+        </div>
+
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-text">
+          <h1 class="my-heading">About Me</h1>
+          <p class="lead-para">
+            I am a BE graduate in Computer Science Engineering, passionate about leveraging my technical skills and knowledge in programming, software development, and problem-solving. My academic journey has provided me with a strong foundation in computer science concepts, including web development, and hands-on experience through various projects.
+          </p>
+      </div>
+      <div class="about-image">
+          <img src="home.jpeg" alt="About Image" >
+      </div>
+  </section>
+     <!-- Techincal skill -->
+ <section class="skill" id="skill">
+  <div class="skill">
+      <h1 class="my-heading text-center">Skill </h1>
+  </div>
+  
+      <div class="my-row">
+          <div class="my-col">
+              <div class="my-card port-card">
+                  <div class="image">
+                      <img src="python.jpeg" 
+                           alt="PythonImage">
+                     </div>
+                  <h3 class="greet-heading blue-text">PYTHON</h3>
+                  <p class="small-para blue-text">Basic</p>
+              </div>
+          </div>
+          <div class="my-col">
+              <div class="my-card port-card">
+                  <div class="image">
+                      <img src="html.jpeg" 
+                           alt="html Image">
+                  </div>
+                  <h3 class="greet-heading blue-text">HTML&CSS</h3>
+                  <p class="small-para blue-text">Basic</p>
+              </div>
+          </div>
+          <div class="my-col">
+              <div class="my-card port-card">
+                  <div class="image">
+                      <img src="js.jpeg" alt="js Image">
+                  </div>
+                  <h3 class="greet-heading blue-text">JAVASCRIPT</h3>
+                  <p class="small-para blue-text">Basic</p>
+              </div>
+          </div>
+      </div>
+      
+      
+
+    <!-- project -->
+    <section class="project" id="project">
+        <div class="project-heading">
+            <h1 class="my-heading text-center">Project</h1>
+        </div>
+        <div class="project-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                           
+                        </div>
+                        <h3 class="greet-heading blue-text">ONLINE EXAM PORTAL</h3>
+                        <p class="small-para">
+                            I developed an Online Exam Portal using Django, designed to streamline the exam process with distinct roles for Admin, Teacher, and Student.The Admin holds full control over the platform, managing both teachers and students, and overseeing all actions.Teachers can create and manage question papers, view assigned students, and monitor their performance. Students can attend exams and view their results in real-time.The portal ensures a user-friendly interface for each role, secure access, and smooth navigation, making it an efficient solution for conducting online examinations.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              PORTFOLIO WEBSITE
+                          </h3>
+                        <p class="small-para">
+                            I created a personal portfolio website to showcase my projects, skills, and accomplishments as a Computer Science Engineering graduate. Built using HTML, CSS, JavaScript, the site provides a professional online presence where visitors can explore my technical expertise, academic achievements, and hands-on projects. The website is designed with a clean and responsive layout, ensuring seamless navigation on any device. It serves as a platform to highlight my journey, showcase my work, and connect with potential employers and collaborators.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                        </div>
+                        <h3 class="greet-heading blue-text"> AI IMAGE GENERATOR</h3>
+                        <p class="small-para">
+                            I developed an AI Image Generator website using HTML, CSS, and JavaScript that allows users to generate images based on custom text prompts. The website features a clean, responsive design with an intuitive interface that enables users to input descriptions, which are then processed by an AI model integrated via API. The front-end design is created using HTML and CSS for structure and styling, while JavaScript handles the logic for interacting with the AI service and dynamically updating the user interface. This project showcases my skills in web development.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+           
+            <div class="contact-details">
+                <h2 class="greet-heading">My Contact Details</h2>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">abisri27102004@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 8098131818</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ANOTHER PHONE</h5>
+                    <p class="contact-text">+91 9943362956</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">583,Thagarai</p>
+                    <p>pandiyankuppam(po),Chinnasalem(tk)</p>
+                    <p>Kallakurchi(dt)-606201</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2024 All rights reserved |
+                This portfolio website template is created 
+                  by Sri abi S
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
